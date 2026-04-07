@@ -1,0 +1,241 @@
+#root {
+  width: 100%;
+}
+
+/* Página */
+.page {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 0 12px;
+}
+
+/* Card */
+.card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 18px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Título */
+.page-title {
+  margin: 0 0 16px 0;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+/* Formulário */
+.form-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+/* Inputs */
+.input {
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 14px;
+  min-width: 140px;
+}
+
+/* Botões */
+.button {
+  height: 30px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1d4ed8;
+}
+
+.button:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.button-danger {
+  background-color: #dc2626;
+}
+
+.button-danger:hover {
+  background-color: #b91c1c;
+}
+
+.button-edit {
+  background-color: #f59e0b;
+}
+
+.button-edit:hover {
+  background-color: #d97706;
+}
+
+.button-secondary {
+  background-color: #6b7280;
+}
+
+.button-secondary:hover {
+  background-color: #4b5563;
+}
+
+/* Lista */
+.people-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Tabela */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* Alinhamento e espaçamento das colunas */
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 4px 28px 4px 0;
+}
+
+/* Mantém a primeira coluna alinhada com a borda esquerda */
+.data-table th:first-child,
+.data-table td:first-child {
+  padding-left: 0;
+}
+
+/* Cabeçalho da tabela */
+.data-table th {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* Células da tabela */
+.data-table td {
+  color: #222;
+}
+
+/* Mensagem quando não houver registros */
+.table-empty {
+  text-align: center;
+  color: #6b7280;
+  padding: 16px 8px;
+}
+
+/* Item da lista */
+.person-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 13px;
+}
+
+.person-item:last-child {
+  border-bottom: none;
+}
+
+/* Ações */
+.actions {
+  display: flex;
+  gap: 4px;
+}
+
+/* Paginação */
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.pagination-info {
+  font-size: 13px;
+  color: #374151;
+}
+
+/* Menu superior principal da aplicação */
+.top-menu {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 20px 0 20px;
+}
+
+/* Destaque visual para o botão ativo do menu */
+.menu-button-active {
+  background-color: #16a34a !important;
+  border-color: #16a34a !important;
+}
+
+/* Efeito visual adicional no botão ativo */
+.menu-button-active:hover {
+  background-color: #15803d !important;
+  border-color: #15803d !important;
+}
+
+/* Card específico da tela inicial */
+.home-card {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Conteúdo central da tela inicial */
+.home-content {
+  text-align: center;
+  max-width: 700px;
+  padding: 20px;
+}
+
+/* Área do logo/ícone principal */
+.home-logo-wrapper {
+  margin-bottom: 20px;
+}
+
+/* Imagem principal da tela inicial */
+.home-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+/* Ajuste do título da home */
+.home-title {
+  margin-bottom: 16px;
+}
+
+/* Subtítulo da tela inicial */
+.home-subtitle {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+/* Texto complementar da tela inicial */
+.home-text {
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.6;
+}

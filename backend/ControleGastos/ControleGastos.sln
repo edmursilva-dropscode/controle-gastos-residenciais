@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleGastos.API", "ControleGastos.API\ControleGastos.API.csproj", "{6CDF2791-83F0-4F21-8CDF-BE70209971DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CDF2791-83F0-4F21-8CDF-BE70209971DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDF2791-83F0-4F21-8CDF-BE70209971DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDF2791-83F0-4F21-8CDF-BE70209971DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDF2791-83F0-4F21-8CDF-BE70209971DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8654B53F-63A8-4B0B-8214-630FFB4CE0E1}
+	EndGlobalSection
+EndGlobal
