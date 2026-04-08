@@ -179,12 +179,31 @@ Os cálculos de receitas, despesas e saldo foram validados e estão consistentes
 - Node.js instalado  
 - SQL Server  
 
+#### 🛠️ Ferramentas recomendadas
+
+- Visual Studio 2022 (para executar o back-end)
+- Visual Studio Code (para executar o front-end)
+- SQL Server Management Studio (SSMS)
+  
 ---
 
-### 🔹 Back-end (.NET)
+### 🔹 Back-end (.NET)   /    Front-end (React + Vite)
 
-```bash
-cd backend
-dotnet restore
-dotnet ef database update
-dotnet run
+--- Back-end:
+- cd backend/ControleGastos/ControleGastos.API  
+- dotnet restore  
+- dotnet ef database update
+- dotnet run
+
+🌐 Acesso
+
+Após rodar, a API estará disponível em: http://localhost:7001/swagger
+
+--- Front-end:
+- cd frontend
+- npm install
+- npm run dev
+
+🌐 Acesso
+
+Após rodar, a aplicação estará disponível em: http://localhost:5173
